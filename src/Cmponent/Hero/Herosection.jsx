@@ -13,9 +13,9 @@ const Herosection = () => {
     return (
         <div className='container-fluid'>
             <div className='row cotainers justify-content-center '>
-                <div className='col-lg-6 d-flex flex-column'>
+                <div className='col-lg-6 d-flex flex-column' style={{ gap: '80px' }}>
                     <div>
-                        <h1 className='' style={{ fontStyle: 'italic', fontWeight: '600', paddingTop: '100px' }}>Explore your <span style={{ color: '#0096C8', fontSize: '36px' }}>hobby</span> or <span style={{ color: '#8064A2)' }}> passion</span></h1>
+                        <h1 className='' style={{ fontStyle: 'italic', fontWeight: '600', paddingTop: '100px' }}>Explore your <span style={{ color: '#0096C8', fontSize: '36px' }}>hobby</span> or <span style={{ color: '#8064A2' }}> passion</span></h1>
                         <div style={{ width: '100%' }}>
                             <p style={{ fontWeight: '300', fontSize: '14px', paddingTop: '32px' }}>
                                 Sign-in to interact with a community of fellow hobbyists and an eco-system of experts, teachers, suppliers, classes, workshops, and places to practice, participate or perform. Your hobby may be about visual or performing arts, sports, games, gardening, model making, cooking, indoor or outdoor activities…
@@ -27,17 +27,15 @@ const Herosection = () => {
                         </div>
 
                     </div>
-                    <div >
-                        <div className='d-flex ' style={{ paddingTop: '80px' }}  >
-                            <img src={human1} className='img-fluid' style={{
-                                width: '336.959px',
-                                height: '216px'
-                            }} />
 
-                            <img src={human2} className='img-fluid' />
-                        </div>
+                    <div className=' d-none d-lg-flex gap-0 ' style={{ width: '50%' }}  >
+                        <img src={human1} className='img-fluid ' />
+                        <img src={human2} className='img-fluid ' />
+
+
                     </div>
                 </div>
+
                 <div className='col-lg-6 align-items-center cardlayout'>
 
                     <div style={{ width: '410px' }} >
@@ -191,7 +189,17 @@ const Herosection = () => {
 
                         </div>
                     </div>
+                    <div className=' d-block d-lg-none  ' style={{ paddingTop: '80px' }}  >
+                        <img src={human1} className='img-fluid' style={{
+                            width: '150px',
+                            height: '96px'
+                        }} />
 
+                        <img src={human2} className='img-fluid' style={{
+                            width: '150px',
+                            height: '96px'
+                        }} />
+                    </div>
                 </div>
             </div>
         </div>

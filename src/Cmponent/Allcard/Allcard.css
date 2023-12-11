@@ -1,20 +1,20 @@
-.cardbtn{
+.cardbtn {
     display: inline-flex;
-padding: 12px 31px 12px 30px;
-justify-content: center;
-align-items: center;
-border-radius: 8px;
-border: 1px solid var(--primary-full, #8064A2);
-background: var(--grey-white, #FFF);
-margin-top: 35px;
+    padding: 12px 31px 12px 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid var(--primary-full, #8064A2);
+    background: var(--grey-white, #FFF);
+    margin-top: 35px;
 
 }
 
-.item h5{
+.item h5 {
     color: black;
 }
 
-.item:hover{
+.item:hover {
     background-color: #8064A2;
     color: white;
 }

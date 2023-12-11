@@ -10,10 +10,7 @@ import bell from '../../assets/bell.svg'
 import cart from '../../assets/cart.svg'
 const Navbar2 = () => {
   return (
-    <div style={{
-      paddingLeft:'92px',
-      paddingRight:'100px'
-    }}>
+    <div className='maincontainer'>
       <nav className="navbar navbar-expand-xl bg-white  ">
         <div className="container-xxl  ">
           <div className='d-block d-xl-none'>
@@ -70,7 +67,7 @@ const Navbar2 = () => {
             <ul className="navbar-nav me-auto " >
 
 
-              <div className="input-group  ms-2  " style={{width: '300px',height: '40px', borderRadius: '0px 8px 8px 0px'}} >
+              <div className="input-group  ms-2  " style={{ width: '300px', height: '40px', borderRadius: '0px 8px 8px 0px' }} >
                 <input type="text" className="form-control" style={{ backgroundColor: '#EBEDF0', fontSize: '12px', fontWeight: '300' }} placeholder="Search here..." aria-label="Recipient's username" aria-describedby="basic-addon2" />
                 <span className="input-group-text " id="basic-addon2" style={{ backgroundColor: '#8064A2', height: '40px' }}> <img src={search} /></span>
               </div>

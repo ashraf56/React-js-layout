@@ -1,0 +1,47 @@
+.invite {
+    width: 360px;
+    height: 40px;
+    flex-shrink: 0;
+}
+
+div ul li {
+    list-style-type: none;
+    text-decoration: none;
+
+}
+
+h3 {
+    color: var(--grey-darkest, #08090A);
+
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    /* 128.571% */
+    letter-spacing: 0.07px;
+}
+
+div ul li a {
+    color: var(--grey-darkest, #08090A);
+
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.07px;
+    text-decoration: none;
+
+}
+
+.copy {
+    color: var(--grey-darkest, #08090A);
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    /* 128.571% */
+    letter-spacing: 0.07px;
+}
