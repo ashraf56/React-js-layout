@@ -32,7 +32,7 @@ const Testimonial = () => {
                         </div>
                         <div className='col-sm-8 ' >
                             <div className='d-flex' >
-                                <input type="range" class="form-range" style={{ color: '#8064A2' }} /> <span className='ps-1'>0:00</span>
+                                <input type="range" className="form-range" style={{ color: '#8064A2' }} /> <span className='ps-1'>0:00</span>
                             </div>
                         </div>
                         <div className='col-sm-2'>

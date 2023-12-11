@@ -63,9 +63,9 @@ const Footer = () => {
 
                         <div>
                             <h5 className=' text-black'>Invite Friends</h5>
-                            <div class="input-group mb-3">
-                                <input type="text" class="form-control invite" placeholder="Invite" aria-label="Recipient's username" aria-describedby="basic-addon2" />
-                                <span class="input-group-text" id="basic-addon2" style={{ background: '#8064A2', color: 'white' }}>Invite</span>
+                            <div className="input-group mb-3">
+                                <input type="text" className="form-control invite" placeholder="Invite" aria-label="Recipient's username" aria-describedby="basic-addon2" />
+                                <span className="input-group-text" id="basic-addon2" style={{ background: '#8064A2', color: 'white' }}>Invite</span>
                             </div>
                         </div>
                     </div>
