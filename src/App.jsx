@@ -1,21 +1,20 @@
 
-import './App.css'
-import Hero from './Cmponent/Hero/Hero'
-import Mainbody from './Cmponent/Mainbody/Mainbody'
-import Navbar1 from './Cmponent/Navbars/Navbar1'
-import Tabs from './Cmponent/Tabs/Tabs'
+import Addown from './Cmponent/Addown/Addown'
+import Allcard from './Cmponent/Allcard/Allcard'
+import Herosection from './Cmponent/Hero/Herosection'
+
+import Navbar2 from './Cmponent/Navbars/Navbar2'
 
 function App() {
 
 
   return (
-    <>
-      <Navbar1></Navbar1>
-      <Hero></Hero>
-      <Tabs></Tabs>
-      <Mainbody></Mainbody>
-
-    </>
+    <div>
+      <Navbar2></Navbar2>
+      <Herosection></Herosection>
+      <Allcard></Allcard>
+      <Addown></Addown>
+    </div>
   )
 }
 

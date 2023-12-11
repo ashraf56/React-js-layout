@@ -10,12 +10,18 @@ const Mainbody = () => {
     <div className='container mx-auto'>
       <div className='row h-100'>
         <div className='col-lg-7 col-md-10 '>
-
+           {/* card 1 */}
           <div className="card mb-3">
             <img src={img1} className="card-img-top" alt="..." />
             <div className="card-body">
               <p className='fw-semibold'>✍️ Article</p>
-              <h5 className="card-title " style={{ fontSize: '22px' }}>What if famous brands had regular fonts? Meet RegulaBrands!</h5>
+              <div className='d-flex justify-content-between align-items-center'>
+                <h5 className="card-title pe-5" style={{ fontSize: '22px' }}>What if famous brands had regular fonts? Meet RegulaBrands!</h5>
+                <button className='btn btn-light  btn-sm' style={{marginTop:'-20px'}}><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+                  <path d="M18.6667 14.0001C18.6667 15.2834 19.7167 16.3334 21 16.3334C22.2834 16.3334 23.3334 15.2834 23.3334 14.0001C23.3334 12.7167 22.2834 11.6667 21 11.6667C19.7167 11.6667 18.6667 12.7167 18.6667 14.0001ZM16.3334 14.0001C16.3334 12.7167 15.2834 11.6667 14 11.6667C12.7167 11.6667 11.6667 12.7167 11.6667 14.0001C11.6667 15.2834 12.7167 16.3334 14 16.3334C15.2834 16.3334 16.3334 15.2834 16.3334 14.0001ZM9.33337 14.0001C9.33337 12.7167 8.28337 11.6667 7.00004 11.6667C5.71671 11.6667 4.66671 12.7167 4.66671 14.0001C4.66671 15.2834 5.71671 16.3334 7.00004 16.3334C8.28337 16.3334 9.33337 15.2834 9.33337 14.0001Z" fill="black" />
+                </svg></button>
+              </div>
+              
               <p className="card-text">I’ve worked in UX for the better part of a decade. From now on, I plan to rei…</p>
 
 
@@ -71,12 +77,18 @@ const Mainbody = () => {
               </div>
             </div>
           </div>
-
+{/* card 2 */}
           <div className="card mb-3">
             <img src={steel} className="card-img-top" />
             <div className="card-body">
               <p className='fw-semibold'>🔬️ Education</p>
-              <h5 className="card-title " style={{ fontSize: '22px' }}>Tax Benefits for Investment under National Pension Scheme launched by Government</h5>
+              <div className='d-flex justify-content-between align-items-center'>
+                <h5 className="card-title " style={{ fontSize: '22px' }}>Tax Benefits for Investment under National Pension Scheme launched by Government</h5>
+                <button className='btn btn-light  btn-sm' style={{marginTop:'-20px'}}><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+                  <path d="M18.6667 14.0001C18.6667 15.2834 19.7167 16.3334 21 16.3334C22.2834 16.3334 23.3334 15.2834 23.3334 14.0001C23.3334 12.7167 22.2834 11.6667 21 11.6667C19.7167 11.6667 18.6667 12.7167 18.6667 14.0001ZM16.3334 14.0001C16.3334 12.7167 15.2834 11.6667 14 11.6667C12.7167 11.6667 11.6667 12.7167 11.6667 14.0001C11.6667 15.2834 12.7167 16.3334 14 16.3334C15.2834 16.3334 16.3334 15.2834 16.3334 14.0001ZM9.33337 14.0001C9.33337 12.7167 8.28337 11.6667 7.00004 11.6667C5.71671 11.6667 4.66671 12.7167 4.66671 14.0001C4.66671 15.2834 5.71671 16.3334 7.00004 16.3334C8.28337 16.3334 9.33337 15.2834 9.33337 14.0001Z" fill="black" />
+                </svg></button>
+              </div>
+              
               <p className="card-text">I’ve worked in UX for the better part of a decade. From now on, I plan to rei…</p>
 
 
@@ -131,6 +143,7 @@ const Mainbody = () => {
               </div>
             </div>
           </div>
+          {/* card 3 */}
           <div className="card mb-3">
             <img src={car} className="card-img-top" />
             <div className="card-body">
@@ -240,6 +253,7 @@ const Mainbody = () => {
               </div>
             </div>
           </div>
+          {/* card 4 */}
           <div className="card mb-3">
             <div className="card-body">
               <p className='fw-semibold'>💼️ Job</p>

@@ -1,0 +1,106 @@
+.cotainers {
+    background-color: #F7F5F9;
+    padding-left: 100px;
+    padding-right: 100px,
+}
+
+.cardlayout {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    padding-top: 103px;
+
+}
+
+.gbtn {
+    display: flex;
+    padding: 12px 128px 12px 24px;
+    align-items: flex-start;
+    gap: 88px;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid var(--Purple-1, #8064A2);
+    background: var(--Purple-3, #F7F5F9);
+}
+
+.fbtn {
+    display: flex;
+    padding: 12px 119px 12px 24px;
+    align-items: flex-start;
+    gap: 79px;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid var(--Purple-1, #8064A2);
+    background: var(--Purple-3, #F7F5F9);
+}
+
+.btns {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    margin-bottom: 28px;
+}
+
+.deviders {
+    display: flex;
+    width: 410px;
+    height: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 8px;
+}
+
+hr {
+    width: 149px;
+    height: 2px;
+    flex-shrink: 0;
+    background: var(--grey-light, #CED4DA);
+}
+
+.dp {
+    color: var(--Black, #000);
+    width: 97px;
+    height: 16px;
+    padding-top: 5px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+}
+
+.continuebtn {
+    display: flex;
+    padding: 12px 172px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    border: 1px solid var(--base-black, #000);
+}
+
+.agreebtn {
+    width: 410px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    display: flex;
+    padding: 12px 133.5px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #8064A2;
+    border: none;
+}
+
+@media only screen and (max-width: 992px) {
+    .cotainers {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+}

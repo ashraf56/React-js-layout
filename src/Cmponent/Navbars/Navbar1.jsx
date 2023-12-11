@@ -24,15 +24,9 @@ function Navbar1() {
           <div>
             <ul className="nav justify-content-end">
 
-              <li className="nav-item dropdown">
+              <li className="nav-item ">
                 <a className="nav-link dropdown-toggle fw-bold text-black" data-bs-toggle="dropdown" role="button" aria-expanded="false">Create account. <span style={{ color: '#2F6CE5' }}>It’s free!</span></a>
-                <ul className="dropdown-menu">
-                  <li><a className="dropdown-item" href="#">Action</a></li>
-                  <li><a className="dropdown-item" href="#">Another action</a></li>
-                  <li><a className="dropdown-item" href="#">Something else here</a></li>
-                  <li><hr className="dropdown-divider" /></li>
-                  <li><a className="dropdown-item" href="#">Separated link</a></li>
-                </ul>
+               
               </li>
             </ul>
           </div>

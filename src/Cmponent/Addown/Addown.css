@@ -1,0 +1,21 @@
+.btncs{
+    display: flex;
+padding: 12px 29px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 8px;
+border: 1px solid var(--Purple-1, #8064A2);
+background: var(--grey-white, #FFF);
+}
+p{
+    color: var(--grey-darkest, #08090A);
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: 30px; 
+padding-top: 32px;
+padding-bottom: 32px;
+letter-spacing: 0.36px;
+}
