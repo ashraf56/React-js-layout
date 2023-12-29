@@ -16,12 +16,11 @@ const Community = () => {
         <span className='sp'>Go to top (Ctrl+Home)</span>
       </div>
       <div className='d-none d-lg-flex ' style={{ marginTop: '121px' }}>
-        <img src={imgss} className='img-fluid' />
-        <img src={imgss} className='img-fluid' />
+
 
       </div>
       <div className='d-block d-lg-none' style={{ marginTop: '121px' }}>
-        <img src={imgss2} className='img-fluid ' />
+
 
       </div>
 

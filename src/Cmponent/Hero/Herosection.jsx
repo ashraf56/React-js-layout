@@ -29,10 +29,7 @@ const Herosection = () => {
                     </div>
 
                     <div className=' d-none d-lg-flex gap-0 ' style={{ width: '50%' }}  >
-                        <img src={human1} className='img-fluid ' />
-                        <img src={human2} className='img-fluid ' />
-
-
+                       
                     </div>
                 </div>
 
